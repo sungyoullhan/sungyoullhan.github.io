@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <title>아름다운 이강산</title>
+</head>
+<body>
+    
+    <!-- 히어로 영역 시작 -->
+    <div class="jumbotron jumbotron-fluid text-white text-center" style="background-image: url('https://source.unsplash.com/1600x900/?mountain')">
+        <div class="container">
+            <h1 class="display-4">아름다운 이강산</h1>
+            <p class="lead"> 이강산 근처의 아름다운 경치를 함께 즐길 수 있습니다.</p>
+        </div>
+    </div>
+    <!-- 히어로 영역 끝 -->
+    
+    <!-- 카드 영역 시작 -->
+    <div class="container">
+        <div class="row">
+            
+            <!-- 첫 번째 카드 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://source.unsplash.com/1600x900/?mountain,tree" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Beautiful Scenery</h5>
+                        <p class="card-text">This card displays a beautiful scenery with mountain and trees.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 두 번째 카드 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://source.unsplash.com/1600x900/?mountain,waterfall" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Beautiful Scenery</h5>
+                        <p class="card-text">This card displays a beautiful scenery with a mountain and a waterfall.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 세 번째 카드 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://source.unsplash.com/1600x900/?mountain,lake" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Beautiful Scenery</h5>
+                        <p class="card-text">This card displays a beautiful scenery with a mountain and a lake.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!-- 카드 영역 끝 -->
+    
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
+    
+</body>
+</html>
